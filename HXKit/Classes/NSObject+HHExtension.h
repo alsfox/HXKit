@@ -17,9 +17,9 @@
  *
  *  @return 转换后的 model
  */
-+ (instancetype _Nullable) zyj_modelWithDictionary: (NSDictionary* _Nullable) dict;
++ (instancetype _Nullable) hx_modelWithDictionary: (NSDictionary* _Nullable) dict;
 
-+ (instancetype _Nullable) zyj_modelWithJSON:(id _Nullable)json;
++ (instancetype _Nullable) hx_modelWithJSON:(id _Nullable)json;
 
 /*!
  *  @brief 从 Dict 数组 转换 Model 数组
@@ -28,6 +28,6 @@
  *
  *  @return  转换后的 model 数组
  */
-+ (NSArray* _Nullable) zyj_modelArrWithDictionary: (NSDictionary * _Nullable)dictArr;
-+ (NSArray * _Nullable) zyj_modelArrWithJSON:(id _Nullable) jsonArr;
++ (NSArray* _Nullable) hx_modelArrWithDictionary: (NSDictionary * _Nullable)dictArr;
++ (NSArray * _Nullable) hx_modelArrWithJSON:(id _Nullable) jsonArr;
 @end

@@ -4,10 +4,24 @@ PODS:
   - FMDB/standard (2.6.2)
   - HXKit (0.1.8):
     - FMDB
-    - YYKit
-  - YYKit (1.0.6):
-    - YYKit/no-arc (= 1.0.6)
-  - YYKit/no-arc (1.0.6)
+    - YYCategories
+    - YYKeyboardManager
+    - YYModel
+    - YYText
+    - YYWebImage
+  - YYCache (1.0.3)
+  - YYCategories (1.0.3):
+    - YYCategories/no-arc (= 1.0.3)
+  - YYCategories/no-arc (1.0.3)
+  - YYImage (1.0.2):
+    - YYImage/Core (= 1.0.2)
+  - YYImage/Core (1.0.2)
+  - YYKeyboardManager (1.0.1)
+  - YYModel (1.0.3)
+  - YYText (1.0.5)
+  - YYWebImage (1.0.3):
+    - YYCache
+    - YYImage
 
 DEPENDENCIES:
   - HXKit (from `../`)
@@ -18,8 +32,14 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
-  HXKit: 38a1de8ee526d4c31ff36d7e99742e720ae1f8b7
-  YYKit: a80c77ab7be226ebe539ef1495dfc25d5766d61e
+  HXKit: 6959aeab3bebf991e05d0e88e58d1d5d903fff22
+  YYCache: 282f35b5b0990833d0b7a06d864a87141a021da2
+  YYCategories: 0fd4d9eb0994d8d0e355beb4081c8f7202a82b7b
+  YYImage: 2cc79ed49b9549b71c6715cefe7b0f5ab3d33abf
+  YYKeyboardManager: ff53d2e80d1808567a7f004028bd200d9469a89f
+  YYModel: 63142c2f07c5c8c9d1c261689cf3827ea6ab2886
+  YYText: ac09660c9ccd9b817f409a20caa6f5587444d2ae
+  YYWebImage: 8da75a611fd0d2e0f58a273f9ca0bc731614cb0d
 
 PODFILE CHECKSUM: a0e401382ac94056076042ebe245455a05b0f86e
 

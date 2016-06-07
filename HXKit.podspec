@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HXKit'
-  s.version          = '0.1.8'
+  s.version          = '0.1.9'
   s.summary          = '上海鸿狐'
 
   s.description      = "上海鸿狐 BY King"
@@ -30,7 +30,13 @@ Pod::Spec.new do |s|
 
     s.public_header_files = 'HXKit/Classes/**/*.h'
     s.frameworks = 'UIKit', 'Foundation'
-    s.dependency 'YYKit'
+    s.dependency 'YYModel'
+    s.dependency 'YYText'
+    s.dependency 'YYWebImage'
+    s.dependency 'YYCategories'
+    s.dependency 'YYKeyboardManager'
+    
+    
     s.dependency 'FMDB' #2.6.2
     s.libraries = 'sqlite3.0'
 end

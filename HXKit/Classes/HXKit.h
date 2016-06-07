@@ -6,7 +6,13 @@
 //
 //
 
-#import <YYKit/YYKit.h>
+#import <YYModel/YYModel.h>
+#import <YYImage/YYImage.h>
+#import <YYCache/YYCache.h>
+#import <YYText/YYText.h>
+#import <YYWebImage/YYWebImage.h>
+#import <YYKeyboardManager/YYKeyboardManager.h>
+#import <YYCategories/YYCategories.h>
 
 #import <FMDB/FMDB.h>
 
