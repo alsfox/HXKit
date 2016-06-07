@@ -1,0 +1,26 @@
+PODS:
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - HXKit (0.1.7):
+    - FMDB
+    - YYKit
+  - YYKit (1.0.6):
+    - YYKit/no-arc (= 1.0.6)
+  - YYKit/no-arc (1.0.6)
+
+DEPENDENCIES:
+  - HXKit (from `../`)
+
+EXTERNAL SOURCES:
+  HXKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  HXKit: d484ad532fd07277400f746e48eca19e41b3c599
+  YYKit: a80c77ab7be226ebe539ef1495dfc25d5766d61e
+
+PODFILE CHECKSUM: a0e401382ac94056076042ebe245455a05b0f86e
+
+COCOAPODS: 1.0.1
